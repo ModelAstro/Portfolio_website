@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+#nv{
+    height: auto;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:100;
+}
+#prof{
+    margin-top: 4rem;
+}
+.navbar {
+    background-color: #5a4a42;
+}
+.nav-link {
+    color: white !important;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #007bff !important;
+}
+#button{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    background-image: linear-gradient(to top, red,yellow);
+    border-radius: 20px;
+    font-weight: 700;
+}
+#button:hover{
+    background-image: linear-gradient(to top,yellow,red);
+}
+@media screen and (max-width:600px){
+    #button{
+        width: 100%;
+    }
+}
+.text-danger {
+    color: #ff0000 !important;
+}
+
+.btn-outline-danger {
+    border-color: #ff0000;
+    color: #ff0000;
+}
+
+.btn-outline-danger:hover {
+    background-color: #ff0000;
+    color: white;
+}
+
+img.rounded-circle {
+    border: 5px solid #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+h2 {
+    font-weight: bold;
+}
+.card-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.card-img-top {
+    height: 150px;
+    object-fit: contain;
+    background-color: #f8f9fa;
+}
+
+.card-body {
+    background-color: #f44336;
+    color: white;
+}
+
+h2 {
+    font-weight: bold;
+}
+.timeline {
+    position: relative;
+    padding: 20px 0;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 30px;
+    padding-left: 40px;
+}
+
+.timeline-dot {
+    position: absolute;
+    left: 10px;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.timeline-content {
+    background-color: #e9ecef;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container{
+    max-width: 1200px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    background-color: #f2f2f2;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-danger {
+    background-color: #f05454;
+    width: 20%;
+    border: none;
+    border-radius: 20px;
+    margin-top: 2rem;
+}
+.area{
+    margin-bottom: 2rem;
+}
